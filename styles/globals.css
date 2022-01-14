@@ -8,12 +8,6 @@ body {
   color: #fff;
 }
 
-button {
-  font-size: 1.3rem;
-  border-radius: 7px;
-  padding: 1rem;
-}
-
 * {
   box-sizing: border-box;
 }
