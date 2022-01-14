@@ -26,14 +26,14 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>URLorItDidntHappen</h1>
-        <h2>Click one:</h2>
+        <h2>
+          Which is true <strong>right now</strong>?
+        </h2>
         <div>
-          <button onClick={() => onClick("real")}>
-            I have the URL right now
-          </button>
+          <button onClick={() => onClick("real")}>I have the URL</button>
           <span className={styles.or}>or</span>
           <button onClick={() => onClick("not-real")}>
-            I don’t have the URL atm
+            I don’t have the URL
           </button>
         </div>
 
